@@ -61,3 +61,4 @@ print("입력 숫자 : {}".format(inp_list))
 print("당첨 번호 : {}".format(lotto_list))
 print("당첨 개수 : {}".format(lotto_count))
 
+#############로또,학생성적 외우기####################
