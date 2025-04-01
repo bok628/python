@@ -43,7 +43,6 @@ while True :
     #     print("숫자를 다시 입력하세요.")
     #     continue
     
-    num = 15
     
     a_list[num2][num1] = "X"
     print()
