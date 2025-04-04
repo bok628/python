@@ -58,14 +58,22 @@ students = [
     {"no":3, "name":"이순신","kor":100, "eng":100,"math":99,"total":299,"avg":99.67,"rank":2}
 ]
 
+# sorted 기존의 리스트를 유지하고 새로운 리스트를 생성 (복사본)
+s_list = sorted(students,key = lambda x : x['name'])
+print(s_list)
+
 # print(students.sort())      # 딕셔너리는 정렬 불가 (크기 비교 X)
 # dict 정렬
+# sort() 기존의 리스트 값을 변경시킴
 print(students)
 print("-"*60)
+students.sort(key = lambda x : x['total'])
+print(students)
 students.sort(key = lambda x : x['name'])           # 이름으로 순차정렬
 print(students)
 students.sort(key = lambda x : x['name'], reverse = True)
 print(students)
+
 
 alist = [20,50,10,40,90]
 alist.sort()                # 순차정렬
