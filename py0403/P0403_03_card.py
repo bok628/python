@@ -1,6 +1,6 @@
-import math
-a = 3.141592
-b = 3.51582
+# import math
+# a = 3.141592
+# b = 3.51582
 
 # # 올림(소수 첫째자리에서 올림)
 # print(math.ceil(a))
@@ -16,7 +16,7 @@ b = 3.51582
 # print(math.ceil(a * 100) / 100)
 
 # # b를 5자리에서 올림하여 출력
-print(math.ceil(b * 10000) / 10000)
+# print(math.ceil(b * 10000) / 10000)
 
 # math 안에 있는 함수 출력
 # print(dir(math))
@@ -29,7 +29,6 @@ print(math.ceil(b * 10000) / 10000)
 # print(random.randint(1,45))
 
 # a_list = [1,2,3,4,5]
-# print(random.choice(a_list))
 
 # print(random.sample(a_list,2))
 
@@ -50,7 +49,7 @@ import random
 
 cList = []
 sh = ["CLOVER", "HEART", "DIAMOND", "SPADE"]
-no = ["","A","2","3","4","5","6","7","8","9","10","J","Q","K"]
+no = ["","A","2","3","4","5","6","7","8","9","10","J","Q","K"] # 숫자로 표현하기 위해 0번째에 공백 추가
 
 
 
