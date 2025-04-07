@@ -5,6 +5,15 @@ fData = f.read()
 f.close()
 print("파일 읽어오기 완료")
 
+
+f = open('py0404/a.jpg',"rb") # 읽기
+ff = open("C:/down1/b.jpg","wb") # 쓰기
+while True :
+    fData = f.read(1)   # 1byte씩 읽어옴
+    if not fData :
+        break
+f.close()
+print("파일 읽어오기 완료")
 # 문서저장 - w,a
 # 파일저장 - wb
 # 폴더 존재 확인 : os.path.exists()
